@@ -1,0 +1,48 @@
+//this is if you choose to float images next to each other
+/* .story-image-container {
+   display: flex;
+   align-items: flex-end;
+   gap: 5px;
+   width: 100%;
+} */
+
+.story-headline {
+   background-color:#F3F3F3;
+   padding: 60px 60px;
+   margin: 50px 0;
+   text-align: center;
+}
+
+.story-about-container {
+   text-align: left;
+}
+
+.story-quote {
+   background-color:#F3F3F3;
+   padding: 60px 60px;
+   text-align: center;
+   margin: 10px 0 40px;
+}
+
+.colors {
+   background: #EDE9E5;
+   background: #F3F3F3; 
+   background: #FAFAFA;
+   background: #FFF;
+
+}
+
+/* Shopify does not accept media queries https://community.shopify.com/c/shopify-design/media-query-in-custom-css/td-p/1961351*/
+
+/* @media only screen and (min-width: 760px){
+   .story-image-container {
+      gap: 10px;
+   }
+
+   .story-container {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: space-between;
+   }
+} */
