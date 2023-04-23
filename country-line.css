@@ -6,21 +6,24 @@
    text-decoration: underline;
    text-underline-offset: 5px;
  }
+ 
  shopify-payment-terms {
    display: none;
  }
+
  .SectionFooter .Button--primary {
    display: none;
  }
+
  .CollectionInner__Sidebar {
    display: none;
  } 
 
  .flickity-prev-next-button {
-   background-color: white;
-   color: black;
- }
-
+  background-color: #f4f3f1;
+  color: black;
+  box-shadow: none;
+}
 
  
  /* Below is not working but does select left-side thumbnails on products */
