@@ -1,5 +1,5 @@
 
-/* THEME SETTINGS */
+ /****** Main Theme Settings ******/
 
 .Button--primary {
    color: black;
@@ -25,12 +25,54 @@
   box-shadow: none;
 }
 
- 
+.CollectionItem__Link {
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  border: none;
+  position: relative;
+  color: white !important;
+}
+
+.CollectionItem__Link::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+  z-index: -1;
+}
+
  /* Below is not working but does select left-side thumbnails on products */
 
  .Product__SlideshowNav--thumbnails {
    display: none;
  }
+
+ /****** Collection List Settings ******/
+
+ .CollectionItem__Link {
+   padding: 0;
+   text-decoration: underline;
+   text-underline-offset: 5px;
+   border: none;
+   position: relative;
+   color: white;
+ }
+ 
+ .CollectionItem__Link::before {
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   z-index: -1;
+ }
+
 
 
 
